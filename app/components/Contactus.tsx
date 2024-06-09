@@ -24,7 +24,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="relative py-20 bg-teal-50">
+    <section className="relative py-20 bg-teal-50" id="Contact">
       <div className="absolute inset-0 z-0">
         <Image
           src="/map.jpg"

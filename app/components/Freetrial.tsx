@@ -24,7 +24,7 @@ const Freetrial = () => {
   };
 
   return (
-    <section className="py-16 bg-blue-200">
+    <section className="py-16 bg-blue-200" id="Pricing">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <motion.div 
           ref={ref}

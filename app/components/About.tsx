@@ -8,7 +8,7 @@ import { MdDryCleaning } from "react-icons/md";
 
 const About = () => {
   return (
-    <section className='pt-20 bg-blue-100'>
+    <section className='pt-20 bg-blue-100' id="Aboutus">
       <div className="max-w-6xl mx-auto px-6 sm:px-4 relative my-4">
         <motion.div 
           className="flex flex-col md:flex-row w-full"

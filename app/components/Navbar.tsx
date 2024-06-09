@@ -1,5 +1,6 @@
 "use client"
 
+import { link } from 'fs';
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
@@ -11,12 +12,12 @@ const Navbar = () => {
   const navItems = [
     { id: 1, text: 'Home' },
     { id: 2, text: 'Aboutus' },
-    { id: 3, text: 'Services' },
+    { id: 3, text: 'Pricing' },
     { id: 5, text: 'Contact' },
   ];
 
   return (
-    <div className='absolute top-0 left-0 w-full z-10 
+    <div className='absolute top-0 left-0 w-full z-10
        flex justify-between items-center 
        h-16 max-w-[1240px] mx-auto px-6 text-white'>
       <h1 className='w-full text-2xl text-white font-mono font-semibold'>Cleanease</h1>
@@ -26,8 +27,9 @@ const Navbar = () => {
           <li
             key={item.id}
             className='p-4 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black font-mono'
-          >
-            {item.text}
+          ><a href={`#${item.text}`}>
+          {item.text}
+        </a>
           </li>
         ))}
       </ul>
