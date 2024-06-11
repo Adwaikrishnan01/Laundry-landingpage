@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export const metadata: Metadata = {
-  title: "Laundry",
+  title: "Cleanease",
   description: "Effortless laundry solutions at your fingertips. Schedule, track, and enjoy fresh, clean clothes with ease.",
 };
 

@@ -7,6 +7,7 @@ import ContactUs from "./components/Contactus";
 import Footer from "./components/Footer";
 
 export default function Home() {
+ 
   return (
     <>
     <Navbar/>
